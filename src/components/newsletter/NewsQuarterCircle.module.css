@@ -1,0 +1,7 @@
+.quarterCircle {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0 0 0 20rem;
+  background-color: #E3B27D;
+  opacity: 0.6;
+}

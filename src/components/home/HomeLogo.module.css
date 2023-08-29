@@ -1,0 +1,5 @@
+.logoContainer {
+  top: 50%;
+  left: -67px;
+  transform: translateY(-50%);
+}
