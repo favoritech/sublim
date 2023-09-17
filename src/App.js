@@ -2,8 +2,8 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Features from "./pages/features/Features";
 import Portfolio from "./pages/portfolio/Portfolio";
-// import Blogs from "./pages/blogs/Blogs";
-// import NewsLetter from "./pages/newsletter/NewsLetter";
+import Blogs from "./pages/blogs/Blogs";
+import NewsLetter from "./pages/newsletter/NewsLetter";
 import Footer from './pages/footer/Footer';
 import "./App.css";
 
@@ -14,8 +14,8 @@ function App() {
       <About />
       <Features />
       <Portfolio />
-      {/*<Blogs />*/}
-      {/*<NewsLetter />*/}
+      <Blogs />
+      <NewsLetter />
       <Footer />
     </>
   );

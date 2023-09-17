@@ -8,8 +8,8 @@ const NewsBanner = () => {
         </h3>
         <div className="bg-[#E3B27D] rounded-full w-40 h-40 p-4 xl:w-[15.62rem] xl:h-[15.62rem] flex flex-shrink-0 items-center justify-center">
           <p className="text-center text-white text-[1rem] font-bold leading-[1.4rem] tracking-[0.18rem] uppercase">
-            Contact with us
-          </p>
+            <a href="mailto:favoritech@outlook.com">Contact with us</a>
+          </p>  
         </div>
       </div>
     </div>
