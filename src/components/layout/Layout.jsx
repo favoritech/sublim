@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <div className="max-w-[81.25rem] mx-auto pt-7 pb-7">
         <div className="px-4">
           <div className=" flex flex-col gap-[1.81rem]">
-            <div className="flex items-center justify-between flex-col sm:flex-row">
+            <div className="flex items-center justify-between">
               <h1 className="text-white text-xl leading-7 font-semibold">
                 <Link to={'/'}>Sublim Mentor Favoritech</Link>
               </h1>
