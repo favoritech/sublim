@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 text-[#aaa] sm:max-w-[300px]">
               <a href="#about" className="text-base font-medium leading-7 mb-6">About Us</a>
               <a href="#service" className="text-base font-medium leading-7 mb-6">Services</a>
-              <a href="mailto:favoritech@outlook.com" target="_blank" className="text-base font-medium leading-7 mb-6">
+              <a href="mailto:favoritech@outlook.com" target="_blank" className="text-base font-medium leading-7 mb-6" rel="noreferrer">
                 Contact Us
               </a>
             </div>
