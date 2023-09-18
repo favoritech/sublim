@@ -1,7 +1,7 @@
 import AboutContent from "../../components/about/AboutContent";
 import AboutCounter from "../../components/about/AboutCounter";
 import AboutHeader from "../../components/about/AboutHeader";
-import Image from "../../components/about/images/about.png";
+import Image from "../../components/about/images/about.jpg";
 
 const About = () => {
   return (
