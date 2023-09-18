@@ -1,7 +1,7 @@
 import AboutContent from "./AboutContent";
 import AboutCounter from "./AboutCounter";
 import AboutHeader from "./AboutHeader";
-import Image from "./images/about.jpg";
+import Image from "../../assets/images/about.jpg";
 
 const About = () => {
   return (

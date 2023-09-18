@@ -1,7 +1,7 @@
 import SummaryCollaborators from "./SummaryCollaborators";
 import SummaryDetails from "./SummaryDetails";
 import HomeLogo from "../../components/home/HomeLogo";
-import Image from "./images/SummaryDetails.png";
+import Image from "../../assets/images/header/SummaryDetails.png";
 
 const draftSummaries = [
   {
