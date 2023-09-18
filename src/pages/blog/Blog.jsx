@@ -36,7 +36,7 @@ const Blog = () => {
                   </div>
                 </div>
                 <span className="text-[1.2rem] text-white font-medium leading-[1.4rem] mt-4 mb-4">{blog.definition}</span>
-                <img src={blog.image} alt="" className="w-full h-full mt-4 mb-4" />
+                <img src={blog.image} alt="" className="w-full h-full mt-4 mb-4" style={blog.imageStyle} />
                 <div>
                   {blog.descriptions?.map((description, key) => (
                     <div className="p-4" key={key}>
