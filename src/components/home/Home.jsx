@@ -1,5 +1,5 @@
-import HomeDescription from "../../components/home/HomeDescription";
-import HomeSummary from "../../components/home/HomeSummary";
+import HomeDescription from "./HomeDescription";
+import HomeSummary from "./HomeSummary";
 import Navbar from "../../components/navbar/Navbar";
 
 const Home = () => {

@@ -1,6 +1,6 @@
-import NewsBanner from "../../components/newsletter/NewsBanner";
-import NewsLetterImage from "../../components/newsletter/NewsLetterImage";
-import NewsQuarterCircle from "../../components/newsletter/NewsQuarterCircle";
+import NewsBanner from "./NewsBanner";
+import NewsLetterImage from "./NewsLetterImage";
+import NewsQuarterCircle from "./NewsQuarterCircle";
 
 const NewsLetter = () => {
   return (

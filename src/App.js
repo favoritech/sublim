@@ -1,23 +1,14 @@
-import Home from "./pages/home/Home";
-import About from "./pages/about/About";
-import Features from "./pages/features/Features";
-import Portfolio from "./pages/portfolio/Portfolio";
-import Blogs from "./pages/blogs/Blogs";
-import NewsLetter from "./pages/newsletter/NewsLetter";
-import Footer from './pages/footer/Footer';
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 function App() {
   return (
-    <>
-      <Home />
-      <About />
-      <Features />
-      <Portfolio />
-      <Blogs />
-      <NewsLetter />
-      <Footer />
-    </>
+    <div>
+      <Routes>
+        <Route exact path="/" element={<Dashboard />} />
+      </Routes>
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-import FeatureItem from "../../components/features/FeatureItem";
+import FeatureItem from "./FeatureItem";
 
 const featuresList = [
   {

@@ -1,5 +1,5 @@
-import PortfolioHeader from "../../components/portfolio/PortfolioHeader";
-import PortfolioList from "../../components/portfolio/PortfolioList";
+import PortfolioHeader from "./PortfolioHeader";
+import PortfolioList from "./PortfolioList";
 
 const Portfolio = () => {
   return (

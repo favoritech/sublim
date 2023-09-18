@@ -1,5 +1,5 @@
-import BlogsHeader from "../../components/blogs/BlogsHeader";
-import BlogsList from "../../components/blogs/BlogsList";
+import BlogsHeader from "./BlogsHeader";
+import BlogsList from "./BlogsList";
 
 const Blogs = () => {
   return (
