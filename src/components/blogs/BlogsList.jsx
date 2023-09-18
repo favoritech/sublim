@@ -2,24 +2,24 @@ import BlogItem from "./BlogItem";
 
 const blogsList = [
   {
-    title: "Business",
+    title: "Development",
     date: "07 Mar 2023",
-    description: "What is Sublim Mentor Favoritech",
+    description: "How to improve website page speed?",
   },
   {
     title: "UI Design",
     date: "19 Feb 2023",
-    description: "User Friendly Mobile Responsive Web Design",
+    description: "How to make responsive web design?",
   },
   {
-    title: "IT Consultant",
+    title: "Development",
     date: "08 Jan 2023",
-    description: "Effective IT Consultant",
+    description: "What is MVC design pattern?",
   },
   {
-    title: "Marketing",
+    title: "Development",
     date: "15 Dec 2022",
-    description: "The Importance of Making Content Right Now",
+    description: "What are HTTP  request methods?",
   },
 ];
 
