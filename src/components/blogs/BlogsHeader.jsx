@@ -9,8 +9,8 @@ const BlogsHeader = () => {
           subtitle="Check Some of Our Latest Update blog"
         />
       </div>
-      <div className="flex flex-col gap-[1.81rem]">
-        <span className="text-[1rem] text-[#aaa] font-medium leading-[1.44rem]">
+      <div className="flex flex-col items-center sm:items-start gap-[1.81rem]">
+        <span className="text-center sm:text-left text-[1rem] text-[#aaa] font-medium leading-[1.44rem]">
           Sublim Mentor Favoritech helped us build a custom software solution
           that has greatly improved our operations.
         </span>

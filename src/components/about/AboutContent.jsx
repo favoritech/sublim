@@ -1,6 +1,6 @@
 const AboutContent = () => {
   return (
-    <div className="flex flex-col gap-[1.25rem] pt-8 md:pt-0 md:pl-20">
+    <div className="text-center sm:text-left flex flex-col gap-[1.25rem] pt-8 md:pt-0 md:pl-20">
       <p className='text-[#aaa] text-[1rem] font-medium leading-[1.4rem]'>
         We offer a wide range of services to meet your needs. Whether you need
         help with software development, cloud solutions, network solutions, or
