@@ -7,11 +7,11 @@ const Footer = () => {
             <p className="max-w-[520px] text-base font-medium text-[#aaa] leading-[21px] text-center sm:text-left">
               Sublim Mentor Favoritech helped us build a custom software solution that has greatly improved our operations.
             </p>
-            <h3 className="text-white uppercase text-xl font-bold leading-7 py-4">Contact</h3>
-            <div className="text-[#aaa] text-base font-medium leading-7">
-              <p>Owner: Sonya Hardlist Hariandja</p>
-              <p>Email: subfavoritech@proton.me</p>
-              <p>Phone: +62 82160905492</p>
+            <div className="text-white text-base font-medium leading-7 pt-4">
+              <p><strong>Owner:</strong> Sonya Hardlist Hariandja</p>
+              <p><strong>Email:</strong> subfavoritech@proton.me</p>
+              <p><strong>Phone:</strong> +62 82160905492</p>
+              <p><strong>Address:</strong> Glass House Jatiasih 2 Kav VI, Bekasi, Indonesia</p>
             </div>
           </div>
           <div className="md:pr-32 text-center sm:text-left">
