@@ -1,11 +1,11 @@
 const aboutCounters = [
   {
     description: "Working people",
-    count: 300,
+    count: 50,
   },
   {
     description: "World Places",
-    count: 20,
+    count: 5,
   },
 ];
 
