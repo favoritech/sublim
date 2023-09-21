@@ -11,7 +11,7 @@ const SummaryCollaborators = () => {
         <div className={`${collaboratorStyles} ${styles.image3}`} />
       </div>
       <div className="flex flex-col text-center sm:text-left">
-        <span className="text-white text-[1.25rem] font-bold leading-7">100+ Collaborators</span>
+        <span className="text-white text-[1.25rem] font-bold leading-7">50+ Collaborators</span>
         <span className="text-[#ccc] text-[1rem] leading-[1.4rem] font-medium">Already</span>
       </div>
     </div>

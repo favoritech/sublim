@@ -5,20 +5,20 @@ import Image from "../../assets/images/header/SummaryDetails.png";
 
 const draftSummaries = [
   {
-    description: "Project Complete",
-    count: 100,
-  },
-  {
-    description: "Hapy Client",
+    description: "Project",
     count: 50,
   },
   {
-    description: "Years Experience",
-    count: 10,
+    description: "Client",
+    count: 30,
   },
   {
-    description: "Win Awards",
-    count: 50,
+    description: "Years",
+    count: 5,
+  },
+  {
+    description: "Awards",
+    count: 30,
   },
 ];
 
