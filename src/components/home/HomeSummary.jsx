@@ -5,19 +5,19 @@ import Image from "../../assets/images/header/SummaryDetails.png";
 
 const draftSummaries = [
   {
-    description: "Project",
+    description: "Project Complete",
     count: 50,
   },
   {
-    description: "Client",
+    description: "Happy Client",
     count: 30,
   },
   {
-    description: "Years",
+    description: "Years Experience",
     count: 5,
   },
   {
-    description: "Awards",
+    description: "Win Awards",
     count: 30,
   },
 ];
