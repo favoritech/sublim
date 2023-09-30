@@ -1,25 +1,27 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Team1 from "../../assets/images/teams/team1.png";
+import ImageSonya from "../../assets/images/teams/sonya.jpg";
+import ImageAlex from "../../assets/images/teams/alex.jpg";
+import ImageVictorio from "../../assets/images/teams/victorio.jpg";
 import {FaArrowRight, FaArrowLeft} from "react-icons/fa6";
 import Header from "../common/Header";
 
 const teamGroup = [
   {
-    image: Team1,
+    image: ImageSonya,
     name: "Sonya Hardlist",
     category: "Founder"
   },
   {
-    image: Team1,
-    name: "Alex Wassenberg",
-    category: "CTO"
-  },
-  {
-    image: Team1,
+    image: ImageVictorio,
     name: "Victorio Puika",
     category: "Advisor"
   },
+  {
+    image: ImageAlex,
+    name: "Alex Wassenberg",
+    category: "Technical Manager"
+  }
 ]
 const CustomRightArrow = ({ onClick }) => {
   return (
@@ -76,8 +78,7 @@ const Team = () => {
             </div>
             <div className="flex flex-col gap-[1.81rem] items-center sm:items-start">
               <span className="text-center sm:text-left text-[1rem] text-[#aaa] font-medium leading-[1.44rem]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore.
+                A team that works together, stays together and finds greatness together.
               </span>
             </div>
           </div>
