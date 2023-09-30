@@ -23,10 +23,10 @@ const Blog = () => {
             blog && (
               <div className="flex flex-col mt-8">
                 <div className="flex flex-col gap-[1rem]">
-                  <h3 className="text-white font-semibold leading-[4.21rem] text-2xl sm:text-4xl lg:text-[3.125rem]">
+                  <h3 className="text-center sm:text-left text-white font-semibold leading-[2rem] sm:leading-[4.21rem] text-3xl sm:text-4xl lg:text-[3.125rem]">
                     {blog.title}
                   </h3>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 justify-center sm:justify-start">
                     <span className="text-[#888] text-[0.81rem] font-medium leading-[1.12rem]">
                       {blog.tag} |
                     </span>
@@ -35,12 +35,12 @@ const Blog = () => {
                     </span>
                   </div>
                 </div>
-                <span className="text-[1.2rem] text-white font-medium leading-[1.4rem] mt-4 mb-4">{blog.definition}</span>
+                <span className="text-center sm:text-left text-[1.2rem] text-white font-medium leading-[1.4rem] mt-4 mb-4">{blog.definition}</span>
                 <img src={blog.image} alt="" className="w-full h-full mt-4 mb-4" style={blog.imageStyle} />
-                <div>
+                <div className="text-center sm:text-left">
                   {blog.descriptions?.map((description, key) => (
                     <div className="p-4" key={key}>
-                      <h4 className="text-white text-2xl md:text-[2rem] font-semibold leading-[2.95rem] pb-4">
+                      <h4 className="text-white text-2xl md:text-[2rem] font-semibold leading-[2rem] sm:leading-[2.95rem] pb-4">
                         {key + 1}.&nbsp;&nbsp;&nbsp;{description.title}
                       </h4>
                       <span className="text-[1rem] text-[#aaa] font-medium leading-[1.4rem]">{description.content}</span>

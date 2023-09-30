@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="max-w-[81.25rem] mx-auto pt-7 pb-7">
+      <div className="max-w-[81.25rem] mx-auto pt-7 pb-7 z-30 relative">
         <div className="px-4">
           <div className=" flex flex-col gap-[1.81rem]">
             <div className="flex items-center justify-between">
