@@ -10,7 +10,7 @@ const ListItem = ({ menu, styles, itemClick }) => {
     >
       {
         menu === "Contact" ?
-          <a href="mailto:subfavoritech@proton.me" target="_blank" rel="noreferrer">
+          <a href="mailto:admin@subfavoritech.com" target="_blank" rel="noreferrer">
             Contact
           </a> : <a href={`#${menu}`}>{menu}</a>
       }

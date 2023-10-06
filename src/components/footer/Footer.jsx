@@ -9,7 +9,7 @@ const Footer = () => {
             </p>
             <div className="text-center sm:text-left text-[#aaa] text-base font-medium leading-7 pt-10">
               <p><strong>Owner:</strong> Sonya Hardlist Hariandja</p>
-              <p><strong>Email:</strong> subfavoritech@proton.me</p>
+              <p><strong>Email:</strong> admin@subfavoritech.com</p>
               {/* <p><strong>Phone:</strong> +62 82160905492</p> */}
               <p><strong>Address:</strong> Glass House Jatiasih II Kav VI, Jl Hj. Tekkel Jatiasih Bekasi Jatiasih, Indonesia</p>
             </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 text-[#aaa] sm:max-w-[300px]">
               <a href="#about" className="text-base font-medium leading-7 mb-6">About Us</a>
               <a href="#service" className="text-base font-medium leading-7 mb-6">Services</a>
-              <a href="mailto:subfavoritech@proton.me" target="_blank" className="text-base font-medium leading-7 mb-6" rel="noreferrer">
+              <a href="mailto:admin@subfavoritech.com" target="_blank" className="text-base font-medium leading-7 mb-6" rel="noreferrer">
                 Contact Us
               </a>
             </div>
