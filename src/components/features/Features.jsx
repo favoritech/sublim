@@ -12,18 +12,14 @@ const featuresList = [
   {
     title: "Cloud",
     subtitle: "Solution",
-    description: `We offer a wide range of services to meet your needs. Whether you need
-          help with software development, cloud solutions, network solutions, or
-          support consulting, we have the expertise to help you achieve your
-          goals.`,
+    description: `We assist your business to new heights with our cutting-edge cloud solutions. 
+          Seamlessly integrate scalable infrastructure, enhance data security, and boost collaboration across your organization.`,
   },
   {
     title: "Network",
     subtitle: "Solution",
-    description: `We offer a wide range of services to meet your needs. Whether you need
-          help with software development, cloud solutions, network solutions, or
-          support consulting, we have the expertise to help you achieve your
-          goals.`,
+    description: `We offer your connectivity infrastructure, enhance data flow, and ensure reliability with our cutting-edge networking expertise. 
+          Trust us to build, secure, and streamline your network, providing the backbone for your digital success in today's interconnected world.`,
   },
 ];
 

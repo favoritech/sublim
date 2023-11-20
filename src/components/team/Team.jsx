@@ -19,7 +19,7 @@ const teamGroup = [
   },
   {
     image: ImageAlex,
-    name: "Alexander Was",
+    name: "Alexander",
     category: "Technical Manager"
   }
 ]

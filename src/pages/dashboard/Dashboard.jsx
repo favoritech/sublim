@@ -13,7 +13,7 @@ const Dashboard = () => {
       <About />
       <Features />
       <Portfolio />
-      {/* <Team /> */}
+      <Team />
       <Blogs />
       <NewsLetter />
     </>
